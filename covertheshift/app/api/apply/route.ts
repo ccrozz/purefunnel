@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { buildApplication } from "@/lib/application";
 import { campaign } from "@/lib/brand";
 
-const endpoint = "https://www.pureassetgrp.com/api/submit-application";
+const endpoint = "https://www.pureassetgrp.com/api/submit-easy-application";
 
 export async function POST(request: Request) {
   let input: unknown;
